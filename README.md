@@ -3,7 +3,7 @@ Pattern Lock that I've made in 2017
 
 
 # Overview
-It's a Pattern Lock from Xiaomi Gallery when you try to access to hidden photos. <br>
+It's a Pattern Lock from Xiaomi Gallery when you try to access hidden photos. <br>
 **_I've made it in purpose of practicing and getting some experience in programming field so don't ask the question why I made it on PC_**
 
 ## Lock code
