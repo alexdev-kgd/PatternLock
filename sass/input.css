@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f2f2f2;
+  overflow: hidden; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff; }
+
+#success, #top, #wrapper {
+  -webkit-transition: all 0.8s ease-in;
+  -moz-transition: all 0.8s ease-in;
+  -ms-transition: all 0.8s ease-in;
+  -o-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in; }
+
+#success, #top {
+  width: 100%;
+  height: 200px;
+  background-color: #96f;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#success {
+  height: 200px;
+  position: absolute; }
+  #success p {
+    font-size: 25px; }
+
+#top {
+  position: relative;
+  top: 0; }
+  #top #top-wrapper {
+    text-align: center;
+    letter-spacing: 1.5px; }
+    #top #top-wrapper img {
+      width: 64px;
+      height: 64px; }
+    #top #top-wrapper #err-text {
+      position: relative;
+      right: 0;
+      transition: all .1s ease; }
+
+#wrapper {
+  width: 500px;
+  margin: 50px auto; }
+  #wrapper canvas {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e6e6e6; }
+
+/*# sourceMappingURL=input.css.map */
